@@ -65,7 +65,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Shutdown *BOT KAMPANG 🐨*....`")
+    await event.edit("`Shutdown *ANGKASA BOT 💫*....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -76,12 +76,12 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting BOT KAMPANG🐨....`")
+    await event.edit("`Restarting ANGKASA BOT💫....`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
-                                        "Bot Meninggoy!")
+                                        "Bot Mati!")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "╭••••••••𖠄••••••••╮🐨╭••••••••𖠄••••••••╮\n \n[┣━•━─[ B🐨T°KAMPANG ]─━•━┫](https://github.com/ManusiaRakitan/Kampang-Bot) \n \n╰••••••••𖠄••••••••╯🐨╰••••••••𖠄••••••••╯\n     \n"
+        "OWNER💫 [LEO ANGKASA](https://t.me/leoangkasaaa)\n \n[REPO [ B💫T°ANGKASA ]](https://github.com/AngkasaBoy/Angkasa-Bot) \n \nBASE BOT FROM [KOALA](https://t.me/manusiarakitann)\n     \n"
     )
 
 
@@ -175,7 +175,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Balas di Gambar Goblokk!!.`")
+        await img.edit("`Balas di Gambar Ngentod!!.`")
         return
 
     if photo:
