@@ -232,15 +232,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**╔▣╦▣╦▣╦╣👽╠╦▣╦▣╦▣╗**\n"
-        f"    **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"
+        f"**╔▣╦▣╦▣╦╣💫╠╦▣╦▣╦▣╗**\n"
+        f"    **☬ ʂ℘ąƈɛცơɬ ☬** \n\n"
         f"•➣ **ƙąɱ℘ąŋɠ**     \n   ➲ `{DEFAULTUSER}` \n"
         f"•➣ **Uʂҽɾɳαɱҽ** \n   ➲ `@{user.username}` \n"
-        f"•➣ **Tҽɳɠҽɳƚσƚ** \n   ➲ `Versi {version.__version__}` \n"
+        f"•➣ **ɬɛƖąʂơ** \n   ➲ `Versi {version.__version__}` \n"
         f"•➣ **Pყƚԋσɳ**   \n   ➲ `Versi {python_version()}` \n"
         f"•➣ **Vҽɾʂι Kαɱραɳɠ**\n   ➲ `{BOT_VER}` \n"
         f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
         f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot)\n💫 **Channel Official: **[Support](t.me/storyangkasa)\n☬ **ѕυρρσят ву:** [Leo Angkasa](t.me/leoangkasaaa)\n"
+        f"•➣ **вσт вαѕє ƒяσм:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)/n"
         f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
 
     if ALIVE_LOGO:
