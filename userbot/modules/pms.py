@@ -27,27 +27,27 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU KAMPANG?\n"
-    f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
+    "    APA LU PANTEK?\n"
+    f"  MAU GANGGUIN DIKTATOR `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Babu Nya `{DEFAULTUSER}`\n"
+    f"Gua Asistennya `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Kontol\n"
-    " Gausah Spam Ya Anjeng\n"
+    " Baca Goblok\n"
+    " Gausah Spam Ya Telaso\n"
     " Lu Bandel?\n"
-    " Gua Sentil Biji Peler Lu\n"
-    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
+    " Gua Bom Lu Asuu\n"
+    " Tungguin Aja Ya Anjeng Sampai Bos\n"
     f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "   😡😡KONTOLLLLL 😡😡\n"
+    "   😡😡TELASOOO😡😡\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🐨Babu Nya `{DEFAULTUSER}`\n"
-    "- DIKENTOT OLEH 🐨Kampang-BOT🐨")
+    f"- 👽Asisten nya `{DEFAULTUSER}`\n"
+    "- DIKENTOT OLEH 👽SPACE-BOT👽")
 # =================================================================
 
 
@@ -246,7 +246,7 @@ async def approvepm(apprvpm):
     try:
         approve(uid)
     except IntegrityError:
-        return await apprvpm.edit("`OK, Pesan Telah Diterima..`")
+        return await apprvpm.edit("`OK, PM Lu Diterima Pantek People..`")
 
     await apprvpm.edit(f"[{name0}](tg://user?id={uid}) `OK, Pesan Telah Diterima..`")
     await apprvpm.delete(getmsg)
