@@ -100,9 +100,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ManusiaRakitan/Kampang-Bot.git")
+    "https://github.com/AngkasaBoy/Angkasa-Bot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kampang")
+    "UPSTREAM_REPO_BRANCH", "Angkasa")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -318,7 +318,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🐨BOT KAMPANG🐨\nMENYALA ANJEEENG```")
+    await bot.send_message(BOTLOG_CHATID, "```🌐BOT ANGKASA🌐\nALHAMDULILLAH MENYALA```")
     return
 
 with bot:
