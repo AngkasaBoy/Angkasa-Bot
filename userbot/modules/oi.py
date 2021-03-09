@@ -10,7 +10,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Muka Kayak Kontol`")
     sleep(1)
-    await typew.edit("`Gausa Cape Ya Ngentod`")
+    await typew.edit("`Gausa Caper Ya Ngentod`")
 # Create by myself @localheart
 
 
