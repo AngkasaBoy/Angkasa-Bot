@@ -20,12 +20,12 @@
 <h2 align="center"><b>BOT: <a href="https://telegram.dog/leoangkasaaa">KAMPANG ░ 🐨</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/AngkasaBoy/Angkasa-Bot"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/AngkasaBoy/Angkasa-Bot"><img src="https://telegra.ph/file/9ff45dd6812f6ac179145.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
-<h1>BOT-KAMPANG</h1>
-<b>BOT NYA TOXIC HATI - HATI!</b>
+<h1>BOT-ANGKASA</h1>
+<b>BOT NYA TIDAK TERLALU TOXIC!</b>
 <br>
 <br>
 
@@ -37,9 +37,9 @@
 - [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
 ### Read more
 <details>
-  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
+  <summary><b>KLIK DISINI UNTUK TOMBOL DEPLOY PANTEK</b></summary>
 
-## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
+## CARA DEPLOY? 🚫DIBACA BIAR GA TOLOL🚫
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
