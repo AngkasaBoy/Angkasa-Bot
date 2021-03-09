@@ -17,7 +17,7 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-<h2 align="center"><b>BOT: <a href="https://telegram.dog/leoangkasaaa">KAMPANG ░ 🐨</a></b></h2>
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/leoangkasaaa">ANGKASA ░ 💫</a></b></h2>
 <br>
 <p align="center">
    <a href="https://github.com/AngkasaBoy/Angkasa-Bot"><img src="https://telegra.ph/file/9ff45dd6812f6ac179145.jpg" alt="BOT-KAMPANG" width=400px></a>
