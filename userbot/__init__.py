@@ -389,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -402,8 +402,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
-                        "🐨BOT KAMPANG🐨 modules helper",
+                    text="{}\nTotal loaded Modules: {}\n               \n💫 **MODULE INFO ANGKASA ** 💫\n".format(
+                        "💫ANGKASA BOT💫 modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -411,22 +411,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🐨BOT KAMPANG🐨 Helper",
+                    "💫ANGKASA BOT💫 Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "BOT KAMPANG",
+                    "ANGKASA BOT",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ManusiaRakitan/Kampang-Bot"),
+                                "https://github.com/AngkasaBoy/Angkasa-Bot"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/mixiologist")],
+                                "https://t.me/leoangkasaaa")],
                     ],
                     link_preview=False,
                 )
