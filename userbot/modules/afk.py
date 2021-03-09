@@ -23,10 +23,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT!!`",
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT\n Tolong Jangan Ganggu Saya!!",
-    "`#AFK 🐨\n Saya Sedang NGENTOT\n Jangan Ganggu Saya !!!!!`",
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT!!`",
+    "`#AFK 🚫\n Lagi SIBUK Dulu Bro...!`",
+    "`#AFK 🚫\n Lagi SOK SIBUK\n Nanti Aja Cari Gua!!",
+    "`#AFK 🚫\n Lagi OFF\n Jangan Kangen Ya ASUUUU!!!!!`",
+    "`#AFK 🚫\n Lagi Pura Pura Sibuk!!`",
 ]
 
 
@@ -61,16 +61,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**AFK 🐨!**\nSaya NGENTOT Dulu Bro...\
+        await afk_e.edit(f"**AFK 🚫!**\nSOK SIBUK Dulu Asuu...\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("**AFK 🐨!**\nSaya NGENTOT Dulu Bro...")
+        await afk_e.edit("**AFK 🚫!**\nSOK SIBUK Dulu Asuu...")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ NGENTOT ]"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【ʙᴜꜱʏ】"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=" [ NGENTOT ]"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【ʙᴜꜱʏ】"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nGii Ngentot nich!")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nLagi SIBUK Asuu...")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**OK Saya Udah CROTTTTT....**")
+        msg = await notafk.respond("**OKE, Gua Come Back PANTEK**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
