@@ -1,7 +1,7 @@
 {
-  "name": "BOT KAMPANG",
-  "description": "[BOT KAMPANG] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/ecacf51f2ee342ba5d3e1.jpg",
+  "name": "SPACEBOT BASE FROM BOT KAMPANG",
+  "description": "[SPACEBOT] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
+  "logo": "https://telegra.ph/file/9ff45dd6812f6ac179145.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ManusiaRakitan/Kampang-Bot",
+  "repository": "https://github.com/AngkasaBoy/Angkasa-Bot",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/mixiologist",
   "stack": "container",
@@ -150,7 +150,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[MAIN BOT MULU ALAY NGENTOT 🐨]",
+      "value": "[MAIN BOT MULU, INGET DYNO KONTOL]",
       "required": false
     },
     "ALIVE_NAME": {
