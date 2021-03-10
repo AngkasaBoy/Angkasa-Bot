@@ -232,17 +232,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**╔▣╦▣╦▣╦╣💫╠╦▣╦▣╦▣╗**\n"
-        f"    **☬ ʂ℘ąƈɛცơɬ ☬** \n\n"
-        f"•➣ **ƙąɱ℘ąŋɠ**     \n   ➲ `{DEFAULTUSER}` \n"
-        f"•➣ **Uʂҽɾɳαɱҽ** \n   ➲ `@{user.username}` \n"
-        f"•➣ **ɬɛƖąʂơ** \n   ➲ `Versi {version.__version__}` \n"
-        f"•➣ **Pყƚԋσɳ**   \n   ➲ `Versi {python_version()}` \n"
-        f"•➣ **Vҽɾʂι Kαɱραɳɠ**\n   ➲ `{BOT_VER}` \n"
-        f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
-        f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot)\n💫 **Channel Official: **[Support](t.me/storyangkasa)\n☬ **ѕυρρσят ву:** [Leo Angkasa](t.me/leoangkasaaa)\n"
-        f"•➣ **вσт вαѕє ƒяσм:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)/n"
-        f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
+        f"**ıllıllı ᴜꜱᴇʀʙᴏᴛ ıllıllı**\n"
+        f"        **☛sᴘᴀᴄᴇ☚** \n\n"
+        f"⫸ **sᴘᴀᴄᴇɴᴀᴍᴇ**     \n   ➲ `{DEFAULTUSER}` \n"
+        f"⫸ **ᴜsᴇʀɴᴀᴍᴇ** \n   ➲ `@{user.username}` \n"
+        f"⫸ **ᴛᴇʟᴇᴛʜᴏɴ** \n   ➲ `Versi {version.__version__}` \n"
+        f"⫸ **ᴘʏᴛʜᴏɴ**   \n   ➲ `Versi {python_version()}` \n"
+        f"⫸ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**\n   ➲ `{BOT_VER}` \n"
+        f"⫸ **ᴍᴏᴅᴜʟᴇ**    \n   ➲ `{len(modules)}` \n\n"
+        f"⫸ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot)\n⫸ **Channel Official: **[Support](t.me/storyangkasa)\n⫸ **sᴜᴘᴘᴏʀᴛ ʙʏ:** [Leo Angkasa](t.me/leoangkasaaa)\n"
+        f"⫸ **ʙᴀsᴇ ʙᴏᴛ:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)/n"
+        f"**ıllıllı sᴘᴀᴄᴇ ᴜsᴇʀʙᴏᴛ ıllıllı**")
 
     if ALIVE_LOGO:
         try:
