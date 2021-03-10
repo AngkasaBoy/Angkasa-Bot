@@ -33,7 +33,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("`Wahh Ngebug Anjing... Mohon Lapor Ke Koala` @mixiologist", str(err))
+            return await event.edit("`Wahh Ngebug Anjing... Mohon Lapor Ke Angkasa` @leoangkasaaa", str(err))
     return user_obj, extra
 
 
@@ -54,11 +54,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Lu Harus Di Global Banned, Karena Lu Jelek Pantek!`")
+        dark = await dc.reply("`Lu Harus Di Global Banned, Karena Faktor Face!`")
     else:
-        dark = await dc.edit("`✒ Global Banned Pantek People Segera Di Proses`")
+        dark = await dc.edit("`💣 Global Banned Segera Di Proses`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`✒ Terdeteksi Pantek People, Rasakan Dibanned Secara Global Karena Elu PANTEK PEOPLE`")
+    await dark.edit(f"`💣 Terdeteksi Muka Jelek, Rasakan Dibanned Secara Global`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -99,7 +99,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`✒ Global Banned Lagi Proses👽`")
+                await dark.edit(f"`💣 Global Banned Lagi Proses`")
             except BaseException:
                 b += 1
     else:
@@ -110,7 +110,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**💂 DIKTATOR:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Punishment:** `Global Banned`"
+        f"**🚀 EKSEKUTOR:** `{ALIVE_NAME}`\n**❂ Nama Jamet:** [{user.first_name}](tg://user?id={user.id})\n**❂ Hukuman:** `Global Banned`"
     )
 
 
@@ -120,9 +120,9 @@ async def gunben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`✒ Mengampuni PANTEK PEOPLE Yang Buriq`")
+        dark = await dc.reply("`🚀 Mengampuni PANTEK PEOPLE Yang Buriq`")
     else:
-        dark = await dc.edit("`✒ Mengampuni SI PANTEK Sedang Di Proses`")
+        dark = await dc.edit("`🚀 Mengampuni SI PANTEK Sedang Di Proses`")
     me = await userbot.client.get_me()
     await dark.edit(f"`PANTEK PEOPLE Telah Di Ampuni, Lain Kali Gausah Caper ya ASUUUU...`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
@@ -163,7 +163,7 @@ async def gunben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await dark.edit(f"`✒ Pengampunan Pantek People... Sabar ngentod... `")
+                await dark.edit(f"`🚀 Pengampunan Pantek People... Sabar ngentod... `")
             except BaseException:
                 b += 1
     else:
@@ -174,7 +174,7 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**💂 DIKTATOR:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
+        f"**🚀 EKSEKUTOR:** `{ALIVE_NAME}`\n**❂ nama Jamet:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
     )
 
 
@@ -183,5 +183,5 @@ CMD_HELP.update({
 `.gban`\
 \nUsage: ✒ Melakukan Global Banned Untuk PANTEK PEOPLE Yang Meresahkan.\
 \n\n`.ungban`\
-\nUsage: ✒ Mengampuni Pantek "
+\nUsage: ✒ Mengampuni Pantek People Yang Jelek "
 })
