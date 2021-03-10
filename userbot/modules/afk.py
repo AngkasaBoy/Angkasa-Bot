@@ -23,10 +23,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "`#AFK 🚫\n Lagi SIBUK Dulu Bro...!`",
-    "`#AFK 🚫\n Lagi SOK SIBUK\n Nanti Aja Cari Gua!!",
-    "`#AFK 🚫\n Lagi OFF\n Jangan Kangen Dulu!!!!!`",
-    "`#AFK 🚫\n Lagi Sibuk, Gabole Ganggu!!`",
+    "`#AFK 🚀\n Lagi SIBUK Dulu Bro...!`",
+    "`#AFK 🚀\n Lagi SOK SIBUK\n Nanti Aja Cari Gua!!",
+    "`#AFK 🚀\n Lagi OFF\n Jangan Kangen Dulu!!!!!`",
+    "`#AFK 🚀\n Lagi Sibuk, Gabole Ganggu!!`",
 ]
 
 
@@ -61,10 +61,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**🚫AFK!**\nJANGAN GANGGU...\
+        await afk_e.edit(f"**🚀AFK!**\nJANGAN GANGGU...\
         \nKarena: `{string}`")
     else:
-        await afk_e.edit("**🚫AFK!**\nLAGI SIBUK! JANGAN KANGEN DULU!")
+        await afk_e.edit("**🚀AFK!**\nLAGI SIBUK! JANGAN KANGEN DULU!")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【ʙᴜꜱʏ】"))
     else:
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"🚫AFK: {afk_since} Yg Lalu.\
+                    await mention.reply(f"🚀AFK: {afk_since} Yg Lalu.\
                         \nKarena: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
