@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"⫸ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**\n   ➲ `{BOT_VER}` \n"
         f"⫸ **ᴍᴏᴅᴜʟᴇ**    \n   ➲ `{len(modules)}` \n\n"
         f"⫸ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot)\n⫸ **Channel Official: **[Support](t.me/storyangkasa)\n⫸ **sᴜᴘᴘᴏʀᴛ ʙʏ:** [Leo Angkasa](t.me/leoangkasaaa)\n"
-        f"⫸ **ʙᴀsᴇ ʙᴏᴛ:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)/n"
+        f"⫸ **ʙᴀsᴇ ʙᴏᴛ:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)\n"
         f"**ıllıllı sᴘᴀᴄᴇ ᴜsᴇʀʙᴏᴛ ıllıllı**")
 
     if ALIVE_LOGO:
