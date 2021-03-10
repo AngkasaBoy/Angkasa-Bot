@@ -232,8 +232,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**ıllıllıllı ᴜꜱᴇʀʙᴏᴛ ıllıllıllı**\n"
-        f"           **☛sᴘᴀᴄᴇ☚** \n\n"
+        f"**|I|•----------» sᴘᴀᴄᴇ ᴜsᴇʀʙᴏᴛ «----------•|I|**\n\n"
         f"⫸ **sᴘᴀᴄᴇɴᴀᴍᴇ**     \n   ➲ `{DEFAULTUSER}` \n"
         f"⫸ **ᴜsᴇʀɴᴀᴍᴇ** \n   ➲ `@{user.username}` \n"
         f"⫸ **ᴛᴇʟᴇᴛʜᴏɴ** \n   ➲ `Versi {version.__version__}` \n"
@@ -242,7 +241,7 @@ async def amireallyalive(alive):
         f"⫸ **ᴍᴏᴅᴜʟᴇ**    \n   ➲ `{len(modules)}` \n\n"
         f"⫸ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ANGKASA BOT](https://github.com/AngkasaBoy/Angkasa-Bot)\n⫸ **Channel Official: **[Support](t.me/storyangkasa)\n⫸ **sᴜᴘᴘᴏʀᴛ ʙʏ:** [Leo Angkasa](t.me/leoangkasaaa)\n"
         f"⫸ **ʙᴀsᴇ ʙᴏᴛ:** [KAMPANG-BOT](https://github.com/ManusiaRakitan/Kampang-Bot)\n"
-        f"**ıllıllıllı sᴘᴀᴄᴇ ᴜsᴇʀʙᴏᴛ ıllıllıllı**")
+        f"**|I|•-------------» ᴀsᴛʀᴏʙᴏʏ «------------•|I|**")
 
     if ALIVE_LOGO:
         try:
